@@ -57,3 +57,7 @@ Done with making Memes? Click the ***BACK HOME*** button to reveal a Popup-Windo
 ## Conclusion
 
 We are proud to present to you our prototype. We hope you are having fun with it. We most certainly did. Due to its nature of being a prototype, the website could present handling issues and does not include features which you might expect it to have. You are always welcome to ask questions about the protoype, we are happy to provide information.
+
+## Authors
+
+This website was designed and built by Gonzalo Cofre Real and Justine Schäfer.

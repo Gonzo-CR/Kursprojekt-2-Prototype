@@ -1,3 +1,6 @@
+Gonzalo Cofre Real: 3621266
+Justine Schäfer: 3784912
+
 https://blog.hubspot.com/website/web-safe-html-css-fonts
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
@@ -24,7 +27,21 @@ https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-strin
 
 https://developer.mozilla.org/de/docs/Web/API/Window/setTimeout
 
-Bildquellen:
+https://www.w3schools.com/cssref/index.php
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
+
+Alle Links wurden zuletzt am 25.01.2025 aufgerufen.
+
+Diese Links wurden zuletzt am 02.02.2025 aufgerufen:
+
+https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets
+
+https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+---------------------------------------------------------------------------------------------------
+
+Bildquellen: Alle Links wurden zuletzt am 27.01.2025 aufgerufen
 
 https://de.pinterest.com/pin/809803576784251401/​
 
