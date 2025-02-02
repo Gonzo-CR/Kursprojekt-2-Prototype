@@ -22,7 +22,15 @@ You can also use git to clone the repository:
 `$ git clone https://github.com/Gonzo-CR/Kursprojekt-2-Prototype.git`
 
 >[!TIP]
->We recommend using VSCode to open the project, because we also recommend the extension Live Server, which runs the website on a live server for us.
+>We recommend using VSCode to open the project, it provides the extension Live Server, which runs the website on a live server for us.
+
+## How to start the website
+Opening up the project you will encounter a fairly simple folder structure. To start the application please open the index.html file within the source folder:
+
+` src -> index.html`
+
+>[!WARNING]
+>Dragging any .html file to the browser to open the website, will not display it as intended and won't have any functionality or style. Make sure to run the website on a server like Live Server via VSCode.
 
 ## How to use the protoype
 <img src="images/readme-images/Landing_Page.png" alt="" width="400">
