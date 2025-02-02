@@ -1,0 +1,250 @@
+/*
+* CSS for the game page.
+* @author: Gonzalo Cofre Real: 3621266
+* @author: Justine Schäfer: 3784912
+*/
+
+body {
+    background-color: #c9a8df;
+}
+
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.header img {
+    width: 60%;
+    height: auto;
+}
+
+/*
+* Popup window styling.
+*/
+.popup-message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #BBDDF2;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 700px;
+    height: 500px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.content .gif-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .gif {
+    width: 90%;
+    height: auto;
+}
+
+.content .text-bubble {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: absolute;
+    top: 22%;
+    left: 18%;
+}
+
+.content .spent-time {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.content .appeal {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: absolute;
+    top: 39%;
+    left: 12%;
+}
+
+.content .close-popup .x-button {
+    width: 1.5rem;
+}
+.popup-message img {
+    width: 60%;
+    
+}
+
+/*
+* Meme editor styling.
+*/
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    padding-top: 13rem;
+}
+
+.content-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.meme-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+}
+
+.meme-grid .image {
+    position: relative;
+    display: inline-block;
+}
+
+.meme-grid .image img {
+    width: 380px;
+    height: 350px;
+    object-fit: fit-content;
+    background-color: black;
+}
+
+.meme-grid .input {
+    display: grid;
+    height: 6rem;
+}
+
+/*
+* Text within the meme styling.
+*/
+.meme-text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-height: 30%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    pointer-events: none;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 3px solid black;
+    border-radius: 0 0 1rem 1rem;
+}
+
+input:hover {
+    font-size: 1.8rem;
+    cursor: text;
+}
+
+/*
+* Button styling.
+*/
+.options {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5rem;
+    height: fit-content;
+}
+
+.button-group {
+    height: 4rem;
+    width: 10rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-color: #BBDDF2;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button-group:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: white;
+    color: #BBDDF2;
+}
+
+.close-popup {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.close-popup:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.i-will {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    left: 15%;
+    bottom: 10%;
+    background-color: #EFD5F2;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+.i-will:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: white;
+    color: #BBDDF2;
+}
+
+.creator-tag {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+}

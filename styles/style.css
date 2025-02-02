@@ -1,0 +1,58 @@
+/*
+* CSS for the home page.
+* @author: Gonzalo Cofre Real: 3621266
+* @author: Justine Schäfer: 3784912
+*/
+body {
+    background: url("/images/background-image.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Impact', sans-serif;
+    font-size: 5em;
+    color: black;
+    height: 190px;
+    width: 1000px;
+    border: 10px solid black;
+    border-radius: 2rem;
+    background-color: white;
+    pointer-events: none;
+}
+
+.start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #333;
+    height: 100px;
+    width: 500px;
+    border: 10px solid black;
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 6rem;
+    cursor: pointer;
+    font-family: 'Impact', sans-serif;
+    text-decoration: none;
+}
+
+.start-button:hover {
+    color: white;
+    background-color: #BBDDF2 ;
+}

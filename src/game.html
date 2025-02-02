@@ -1,0 +1,75 @@
+<!-- HTML for the game page.
+@author: Gonzalo Cofre Real: 3621266
+@author: Justine Schäfer: 3784912
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/game.css">
+    <title>BTS-MAKE YOUR MEME!</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="/images/game-title.png" alt="">
+    </header>
+    <!-- Popup message start-->
+    <div class="popup-message" id="popup-message" hidden="true">
+        <div class="content">
+            <div class="gif-content">
+                <img src="/images/You have been on this.gif" alt="" class="gif">
+                <div class="text-bubble" id="top-text-popup">
+                    You used this app for:
+                </div>
+                <div class="spent-time" id="time-spent">
+
+                </div>
+                <div class="appeal">
+                    Go touch some grass!
+                </div>
+                <a href="index.html" class="i-will" id="i-will-button">
+                    BACK HOME
+                </a>
+                <button class="close-popup" id="close-popup-button">
+                    <img src="/images/x-mark.png" alt="" class="x-button">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Popup message end-->
+    <!-- Main game container start-->
+    <div class="main-container" id="main">
+        <div class="content-grid" id="content-grid">
+            <div class="meme-grid">
+                <div class="image" id="textImage">
+                    <img src="/images/jimin_meme.jpg" alt="" id="meme-image">
+                    <div class="meme-text" id="memeText"></div>
+
+                </div>
+                <div class="input">
+                    <input type="text" id="textInput" placeholder="Enter your text here">
+                </div>
+            </div>
+            <div class="options">
+                <button class="button-group next" id="next-button">
+                    NEXT
+                </button>
+                <button class="button-group download" id="download-button" download="meme.png">
+                    DOWNLOAD
+                </button>
+                <button class="button-group home" id="home-button">
+                    BACK HOME
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Main game container end-->
+    <div class="creator-tag">Created by Gonzalo Cofre Real and Justine Schäfer</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="/javascripts/game.js"></script>
+</body>
+
+</html>
