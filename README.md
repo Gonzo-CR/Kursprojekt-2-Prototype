@@ -25,25 +25,25 @@ You can also use git to clone the repository:
 >We recommend using VSCode to open the project, because we also recommend the extension Live Server, which runs the website on a live server for us.
 
 ## How to use the protoype
-<img src="images/readme-images/Landing_Page.png" alt="" width="3800">
-<img src="images/readme-images/Landing_Page_Press_Start.png" alt="" width="380">
+<img src="images/readme-images/Landing_Page.png" alt="" width="350">
+<img src="images/readme-images/Landing_Page_Press_Start.png" alt="" width="350">
 
 On the landing page, you have to click the ***START*** Button to get to the game page.
 
-<img src="images/readme-images/Game_Page.png" alt="" width="380">
-<img src="images/readme-images/Game_Page_Input.png" alt="" width="380">
+<img src="images/readme-images/Game_Page.png" alt="" width="350">
+<img src="images/readme-images/Game_Page_Input.png" alt="" width="350">
 
 Now on the game page, you are free to input text into the provided textfield.
 
-<img src="images/readme-images/Game_Page_Next.png" alt="" width="380">
-<img src="images/readme-images/Game_Page_Download.png" alt="" width="380">
+<img src="images/readme-images/Game_Page_Next.png" alt="" width="350">
+<img src="images/readme-images/Game_Page_Download.png" alt="" width="350">
 
 You can also skip to the next MEME by clicking the ***NEXT*** button. You can only view 10 Memes before recieving a popup-message to go outside.
 Click the ***DOWNLOAD*** button to save your meme to your computer.
 
 
-<img src="images/readme-images/Game_Page_Back.png" alt="" width="380">
-<img src="images/readme-images/Game_Page_Popup.png" alt="" width="380">
+<img src="images/readme-images/Game_Page_Back.png" alt="" width="350">
+<img src="images/readme-images/Game_Page_Popup.png" alt="" width="350">
 
 Done with making Memes? Click the ***BACK HOME*** button to reveal a Popup-Window telling you how much time you have spent on the platform. Your able to exit that view by clicking the ***X*** Icon or leave the game by clicken the ***BACK HOME*** button.
 
